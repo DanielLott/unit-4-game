@@ -1,0 +1,83 @@
+body {
+    background-image: url("../../assets/images/bgfull.jpg");
+}
+
+header, main, #targetNumber, #winlossBox, .total, .target {
+    padding: 3px;
+    margin: 3px;
+    
+}
+
+main {
+    background-color: beige;
+    width: 460px;
+    line-height: 1.5;
+    color: green;
+    font-weight: bold;
+    clear: left;
+    float: left;
+}
+
+header {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    width: fit-content;
+    float: left;
+
+}
+
+.target {
+    clear: left;
+    background-color: greenyellow;
+    width: fit-content;
+}
+
+#targetNumber {
+    background-color: greenyellow;
+    font-size: 40px;
+    padding: 10px;
+    width: 60px;
+    text-align: right;
+}
+
+#winlossBox {
+    background-color: aquamarine;
+    width: fit-content;
+    line-height: 1.5;
+    float: left;
+}
+
+#crystalPics1 {
+    clear:left;
+}
+
+#crystalPics2 {
+    clear:left;
+}
+
+#ruby:hover, #diamond:hover, #yellow_apatite:hover, #emerald:hover {
+    background-color: white;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+}
+
+.total {
+    color: white;
+    background-color: darkcyan;
+    width: fit-content;
+}
+
+#currentTotal {
+    font-size: 40px;
+    width: 60px;
+    padding: 10px;
+    text-align: right;
+}
+
+#currentGame {
+    float: left;
+}

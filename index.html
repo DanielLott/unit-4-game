@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+        
+        
+        
+    </head>
+    
+    
+    <header>
+        <h1>Crystal Collector!</h1>
+    </header>  
+        <div id="winlossBox">
+            <p>Wins: <span id="winsTally"></span> <br>
+            Losses: <span id="lossesTally"></span>
+            </p>
+        </div>
+    
+    
+    <body>
+        <main>
+            <p>You will be given a random "Target Number" at the start of the game.<br><br>
+            There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.<br><br>
+            You win the game by matching your total score to a random number. You lose the game if your total goes above the random number.<br><br>
+            The value of each crystal is hidden from you until you click on it.<br><br>
+            Each time when the game starts, the game will change the values of each crystal.
+        </main>
+
+        <div id="currentGame">
+            <div class="target">
+                <p>Target Number:                
+                </p>
+            </div>
+            
+            <div id="targetNumber" class="target">        
+            </div>
+            
+            <div class="total">
+                <p>Your current total is:
+                </p>
+            </div>
+            
+            <div class="total" id="currentTotal">        
+            </div>                
+        
+        </div>        
+
+        
+        <div id="crystalPics1">
+            <button type="button"><figure id="ruby"><img src="assets/images/ruby.png" width="100px"></figure></button>
+            
+            <button type="button"><figure id="diamond"><img src="assets/images/diamond.png" height="150px"></figure></button>
+            </div>
+
+            <div id="crystalPics2">
+                <button type="button"><figure id="yellow_apatite"><img src="assets/images/yellow_apatite.png" width="130px"></figure></button>
+            
+                <button type="button"><figure id="emerald"><img src="assets/images/emerald.png" width="110px"></figure></button>
+            </div>
+
+    </body>
+
+    <script src="assets/javascript/game.js"></script>
+
+</html>
